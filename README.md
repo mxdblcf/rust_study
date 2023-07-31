@@ -1,5 +1,5 @@
 # 这是一个rust的学习笔记
 
-# 创建项目 cargo create xxx
+# note 是里面的一些markdown笔记
 
-# 编译 cargo build xxx
+# src 存放的是源码例子
