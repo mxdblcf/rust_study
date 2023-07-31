@@ -43,6 +43,19 @@ cargo build
 
 这将编译并运行项目，输出结果将会在终端中显示。
 
+## 把库发布到crates.io
+
+```
+ cargo publish
+```
+
+## 生成文档、测试
+
+```
+ cargo doc
+ cargo test
+```
+
 ## 发布项目
 
 要发布项目，只需在项目根目录下运行 `cargo build --release` 命令：
