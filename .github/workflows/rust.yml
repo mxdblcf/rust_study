@@ -16,9 +16,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build and run
+  
+    - name: Build
       run: cargo build --verbose
-        cargo run --verbose | tee output.txt
+    - name: Run and save output
+      run: |
+        cargo run --verbose > output.txt
         cat output.txt
     - name: Run tests
       run: cargo test --verbose
+ 
