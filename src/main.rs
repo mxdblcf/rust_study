@@ -19,4 +19,18 @@ fn main() {
  //data type
  let stringtToNum:u32= "1".parse().expect("error 1111");
  println!("{stringtToNum}");
+
+ //tup元组
+ let tup:(u32, f32) =(1,1.1);
+ let tup1=tup.1;
+ println!("{tup1},tup1");
+// function return 
+let funcmxd =mxd();
+println!("the func is={funcmxd}");
+
+
+}
+
+fn mxd() -> String{
+    "mxd".to_string()
 }
