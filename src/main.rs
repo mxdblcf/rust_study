@@ -27,10 +27,17 @@ fn main() {
 // function return 
 let funcmxd =mxd();
 println!("the func is={funcmxd}");
+// ownership ,string 被一个函数使用后就被释放来
 
-
+let str2=String::from("hello");
+useStr2(str2.clone()); //clone函数可以复制堆
+useStr2(str2);
+//println!("{}",str2); //被借用来了。不能再使用
 }
 
 fn mxd() -> String{
     "mxd".to_string()
+}
+fn useStr2(str: String){
+    println!("use{}",str);
 }
