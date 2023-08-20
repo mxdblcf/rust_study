@@ -1,10 +1,8 @@
 
-
 fn main() {
 
-    //打印字符
+    打印字
     println!("Hello, world!");
-
  println!("mx1jjjjd");
  // set variable
  let x = 5 ;   //is immutable variable
@@ -41,3 +39,4 @@ fn mxd() -> String{
 fn useStr2(str: String){
     println!("use{}",str);
 }
+
