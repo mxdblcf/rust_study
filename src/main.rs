@@ -1,7 +1,7 @@
 
 fn main() {
 
-    打印字
+    //打印字符
     println!("Hello, world!");
  println!("mx1jjjjd");
  // set variable
